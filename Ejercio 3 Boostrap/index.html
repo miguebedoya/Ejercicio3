@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-5">
+                <header class="d-flex justify-content-between pt-5 mb-5">
+                    <div class="fw-bold">
+                        <h5><i class="bi bi-circle m-1"></i>Untitled Ui</h5>
+                    </div>
+                    <div class="fw-bold">
+                        <p>$240 (2 items) <i class="bi bi-bag"></i></p>
+                    </div>
+                </header>
+                <div class="row m-3">
+                    <h5>How would you like to get your order?</h5>
+                    <div class="col-6 mt-3">
+                        <label for="First" class="form-label">First name</label>
+                        <input type="text" name="First name" class="form-control" id="usuario">
+                    </div>
+                    <div class="col-6 mt-3">
+                        <label for="last" class="form-label">Last name</label>
+                        <input type="text" name="Last name" class="form-control" id="usuario">
+                    </div>
+                    <div class="col-12"><label for="street" class="form-label">Street address</label>
+                        <input type="text" name="street address" class="form-control" id="usuario">
+                    </div>
+                    <div class="col-8">
+                        <label for="Town" class="form-label">Town/City</label>
+                        <input type="text" name="Town" class="form-control" id="usuario">
+                    </div>
+                    <div class="col-2">
+                        <label for="state" class="form-label">State</label>
+                        <input type="text" name="State" class="form-control" id="usuario">
+                    </div>
+                    <div class="col-2">
+                        <label for="post" class="form-label">Postcode</label>
+                        <input type="text" name="post" class="form-control" id="usuario">
+                    </div>
+                    <div class="col-12"><label for="Country">Country</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected></option>
+                            <option selected="1">💛Colombia</option>
+                            <option value="2">🐢Francia</option>
+                            <option value="3">⚽Brasil</option>
+                            <option value="4">❤️España</option>
+                            <option value="5">🍕Italia</option>
+                            
+                        </select>
+                    </div>
+                    <div class="col-12 my-">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" name="email" class="form-control" id="usuario" placeholder="">
+                    </div>
+                    <div class="col-md-12 d-flex flex-column">
+                        <button type="submit" class="btn btn-primary py-2  ">Continue To Payment</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-7">
+                <div class="fondo text-white rounded-5 d-flex align-items-end justify-content-around">
+                    <div class="">
+                        <h3>The Evelyn Shirt</h3>
+                        <h5>$200</h5>
+                        <p>100% Organic</p>
+                    </div>
+                    <div class="">
+                        <button class="btn btn-outline-light"><i class="bi bi-plus-lg"></i>Add to cart</button>
+                       <p class="mt-2 mx-3"> <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                            class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></p>
+                        <a class="mx-4" href="">47 reviews</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

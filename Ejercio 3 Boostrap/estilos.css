@@ -1,0 +1,10 @@
+.fondo {
+    background-image: url(img/img_fondo.jpg) ;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 760px;
+}
+
+a {
+    color: white;
+}
